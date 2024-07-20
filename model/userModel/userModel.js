@@ -19,7 +19,7 @@ const newUser = new mongoose.Schema({
     },
     is_online: {
         type: String,
-        required: true
+        default: '0'
     }
 },
 {timestamps: true},
